@@ -9,7 +9,7 @@
 
 	echo "Harga Beli = Rp $belikambing<br>
 			Harga Jual = Rp $jualkambing<br>
-			Keuntungan = Rp $untung<br>
+			Keuntungan = Rp $totaluntung<br>
 			Berapa Jumlah Kambing yang dibeli?<br>
 			Jawaban: $jumlah ekor";
 ?>
