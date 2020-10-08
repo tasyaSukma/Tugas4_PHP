@@ -3,13 +3,13 @@
 
 <?php
 	$belikambing = 8000;
-	$totaluntung = 7500;
+	$jualkambing = 7500;
 	$untung = 300;
-	$jumlah = ($totaluntung/$untung);
+	$jumlah = round(($belikambing-$jualkambing)/$untung);
 
 	echo "Harga Beli = Rp $belikambing<br>
-			Harga Jual = Rp $jualkambing<br>
-			Keuntungan = Rp $totaluntung<br>
+			Harga Jual = Rp $totaluntung<br>
+			Keuntungan = Rp $untung<br>
 			Berapa Jumlah Kambing yang dibeli?<br>
 			Jawaban: $jumlah ekor";
 ?>
